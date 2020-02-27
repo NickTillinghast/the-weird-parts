@@ -39,3 +39,30 @@
 
 // waitThreeSeconds();
 // console.log('finished execution');
+
+//=========== because its a function it will be hoisted =========
+// greet();
+
+// function greet() {
+//     console.log('hi');
+// }
+
+//======== variable will not be hoisted =========
+// var anonymousGreet = function () {
+//     console.log('hi');
+// }
+
+// anonymousGreet();
+//=============== function within a function =======
+// function log(a) {
+//     a();
+// }
+
+// log(function () {
+//     console.log('hello');
+// });
+
+
+
+
+
