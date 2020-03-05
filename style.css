@@ -1,5 +1,5 @@
-.container {
-  background: url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1573445573/zg7yryy1yx76sfal7bvu.jpg)
+/* .container {
+  background: url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1570578233/No%20Db%201.jpg)
     no-repeat center top;
   background-size: cover;
 }
@@ -9,11 +9,37 @@
   height: 100vh;
   margin: 0;
   font-family: sans-serif;
-  font-size: 12vw;
+  font-size: 20vw;
   font-weight: 900;
   color: #000;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
   mix-blend-mode: screen;
+} */
+.button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.btn {
+  border: none;
+  margin: 20px;
+  padding: 24px;
+  width: 220px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+  transition: 0.6s;
+}
+.btn1 {
+  background-image: linear-gradient(to left, #128dff, #27bdc2, #128dff);
+}
+.btn:hover {
+  background-position: right;
 }
