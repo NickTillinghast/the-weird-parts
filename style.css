@@ -1,4 +1,4 @@
-/* .container {
+.container {
   background: url(https://res.cloudinary.com/dqpatwz6c/image/upload/v1570578233/No%20Db%201.jpg)
     no-repeat center top;
   background-size: cover;
@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   mix-blend-mode: screen;
-} */
+}
 .button {
   position: absolute;
   left: 50%;
